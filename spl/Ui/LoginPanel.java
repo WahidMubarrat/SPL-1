@@ -19,7 +19,7 @@ public class LoginPanel
         String ans = login (email, password);
         if (ans.equals("student"))
         {
-            StudentPanel.display(sc);
+          /*StudentPanel.display(sc);*/
         }
         else if (ans.equals("admin"))
         {
